@@ -73,7 +73,6 @@ describe('addIngredients with Recipe', () => {
         </Provider>
       )
 
-      console.log(store.getState().recipeForm)
       let WrapperConnectedRecipesInput = wrapper.find(ConnectedRecipesInput).first()
       let WrapperRecipesInput = wrapper.find(RecipesInput).first()
       let recipeNameInput = wrapper.find('input').first()
