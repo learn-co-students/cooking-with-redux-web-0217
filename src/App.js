@@ -6,6 +6,7 @@ export class App extends Component {
     return (
       <div className="App">
         <Link to="/recipes/new">Create Recipe </Link>
+      
       </div>
     );
   }
